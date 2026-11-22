@@ -13,6 +13,7 @@ lib-$(CONFIG_ITEL_P682LPN) += itel/board-p682lpn.o
 lib-$(CONFIG_LENOVO_TB373FU) += lenovo/board-tb373fu.o
 lib-$(CONFIG_LENOVO_P1MA40) += lenovo/board-p1ma40.o
 lib-$(CONFIG_MOTOROLA_TUNDRA) += motorola/board-tundra.o
+# removed
 lib-$(CONFIG_NOKIA_ESSENTIAL) += nokia/board-essential.o
 lib-$(CONFIG_NOTHING_FROGGERPRO) += nothing/board-froggerpro.o
 lib-$(CONFIG_NOTHING_PONG) += nothing/board-pong.o
@@ -67,3 +68,4 @@ lib-$(CONFIG_XIAOMI_MOON) += xiaomi/board-moon.o
 lib-$(CONFIG_XIAOMI_NEZHA) += xiaomi/board-nezha.o
 lib-$(CONFIG_XIAOMI_SHENNONG) += xiaomi/board-shennong.o
 lib-$(CONFIG_ZTE_PINE) += zte/board-pine.o
+lib-y += motorola/board-lamul.o

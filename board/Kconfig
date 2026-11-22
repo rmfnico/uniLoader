@@ -508,4 +508,5 @@ menu "Device Specific Addresses"
 		hex "Ramdisk Entry Address"
 		default 0x40000000 if NOTHING_TETRIS
 		default 0x48000000 if XIAOMI_BEGONIA
+	default 0x47c80000 if MOTOROLA_LAMUL
 endmenu

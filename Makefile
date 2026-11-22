@@ -394,7 +394,9 @@ endif # $(dot-config)
 uniloader-main-y := arch/built-in.o main/built-in.o
 
 # Directory structure
-uniloader-obj-dirs := main arch
+uniloader-obj-dirs := main arch board
+export CONFIG_MOTOROLA_LAMUL := y
+#export CONFIG_MOTOROLA_LAMUL := y
 uniloader-lib-dirs := soc board drivers lib
 
 # All directories that need to be built
